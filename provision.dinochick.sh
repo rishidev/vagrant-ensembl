@@ -8,8 +8,11 @@ apt-get install -y git
 apt-get install -y build-essential
 apt-get install -y emacs23
 apt-get install -y cpanminus
+apt-get install -y ksh
 apt-get install mysql-server
 apt-get install mysql-client-core-5.5
+
+cpanm -f DBI
 
 #This is for Bio::DB::HTS
 cpanm -f Module::Build
@@ -38,6 +41,7 @@ mkdir ensembl-api
 cd ensembl-api
 git clone --depth 1 https://github.com/Ensembl/ensembl.git
 git clone --branch master --depth 1 https://github.com/Ensembl/ensembl-analysis.git
+git clone --branch master --depth 1 https://github.com/Ensembl/ensembl-pipeline.git
 git clone --branch master --depth 1 https://github.com/Ensembl/ensembl-variation.git
 git clone --branch master --depth 1 https://github.com/Ensembl/ensembl-funcgen.git
 cd ..
