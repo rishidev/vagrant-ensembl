@@ -12,6 +12,10 @@ apt-get install -y ksh
 apt-get install mysql-server
 apt-get install mysql-client-core-5.5
 
+#Needed for ZMap
+apt-get install libreadline6 libreadline6-dev
+apt-get install libmysqlclient-dev
+
 cpanm -f DBI
 
 #This is for Bio::DB::HTS
