@@ -21,6 +21,7 @@ apt-get install glib-2.0
 apt-get install gtk+-2.0
 apt-get install libcurl4-openssl-dev
 apt-get install sqlite
+apt-get install libsqlite3-dev
 
 cpanm -f DBI
 
