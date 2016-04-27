@@ -20,6 +20,7 @@ apt-get install pkg-config
 apt-get install glib-2.0
 apt-get install gtk+-2.0
 apt-get install libcurl4-openssl-dev
+apt-get install sqlite
 
 cpanm -f DBI
 
