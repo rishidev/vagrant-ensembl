@@ -15,6 +15,11 @@ apt-get install mysql-client-core-5.5
 #Needed for ZMap
 apt-get install libreadline6 libreadline6-dev
 apt-get install libmysqlclient-dev
+apt-get install curl
+apt-get install pkg-config
+apt-get install glib-2.0
+apt-get install gtk+-2.0
+apt-get install libcurl4-openssl-dev
 
 cpanm -f DBI
 
